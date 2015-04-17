@@ -1,0 +1,23 @@
+{
+  "name": "karma-es6-shim",
+  "version": "1.0.0",
+  "description": "es6-shim adapter for Karma",
+  "keywords": [
+    "karma",
+    "karma-plugin",
+    "karma-framework",
+    "es6-shim",
+    "shim"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:radify/karma-es6-shim.git"
+  },
+  "author": "Gavin Davies <gavin@radify.io>",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
