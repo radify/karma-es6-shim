@@ -1,6 +1,6 @@
 {
   "name": "karma-es6-shim",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "es6-shim adapter for Karma",
   "keywords": [
     "karma",
