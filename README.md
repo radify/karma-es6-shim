@@ -5,16 +5,12 @@ Karma wrapper that makes sure the ES6 and ES5 shims are BOTH available. See also
 
 Modified from https://github.com/pokehanai/karma-es5-shim
 
-[es6-shim][] for [Karma][] including [es5-shim][]
-
-[es6-shim]: https://github.com/paulmillr/es6-shim/
-[es5-shim]: https://github.com/es5-shim/es5-shim/
-[karma]:    http://karma-runner.github.io
+[es6-shim](https://github.com/paulmillr/es6-shim/) for [karma](http://karma-runner.github.io) including [es5-shim](https://github.com/es5-shim/es5-shim/).
 
 Motivation
 ----------
 
-Most versions of PhantomJS do not support ES5, let alone ES6. This meant that you got all sorts of errors when you tried to test ES6 features, even if you had used the [Babel (AKA 6to5 ) transpiler](https://babeljs.io/).
+Most versions of PhantomJS do not support ES5, let alone ES6. This meant that you got all sorts of errors when you tried to test ES6 features, even if you had used the [Babel/6to5 transpiler](https://babeljs.io/).
 
 Therefore, we have modified [pokehanai/karma-es5-shim](https://github.com/pokehanai/karma-es5-shim) in the following ways:
 
@@ -64,10 +60,9 @@ Use it if you meet all the following criteria:
 
 * You are using PhantomJS in Karma to test ES6
 * You use the es6-shim polyfill in your HTML
-* You need to use AMD-based module loading
+* You need to use AMD-based module loading, e.g. RequireJS (see [Babel's docs](https://babeljs.io/docs/usage/runtime/) for more information)
 
 Do not use it if:
 
 * You can [work around it using Babel's transform](https://github.com/babel/babel/issues/377)
 * You are polyfilling in some other way that is accessible to PhantomJS in Karma
-
