@@ -56,3 +56,18 @@ Example usage
 You will almost certainly need some kind of transpiler such as [Babel or 6to5](https://babeljs.io/).
 
 We have supplied an example repository at [https://github.com/radify/karma-es6-shim-example](github.com/radify/karma-es6-shim-example).
+
+When to use this and when not to
+--------------------------------
+
+Use it if you meet all the following criteria:
+
+* You are using PhantomJS in Karma to test ES6
+* You use the es6-shim polyfill in your HTML
+* You need to use AMD-based module loading
+
+Do not use it if:
+
+* You can [work around it using Babel's transform](https://github.com/babel/babel/issues/377)
+* You are polyfilling in some other way that is accessible to PhantomJS in Karma
+
