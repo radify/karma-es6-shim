@@ -1,5 +1,7 @@
 karma-es6-shim
 ==============
+[![npm version](https://badge.fury.io/js/karma-es6-shim.svg)](http://badge.fury.io/js/karma-es6-shim)
+[ ![Dependencies Status](https://david-dm.org/radify/karma-es6-shim.svg)](https://david-dm.org/radify/karma-es6-shim.svg)
 
 Karma wrapper that makes sure the ES6 and ES5 shims are BOTH available. See also the [example usage project](https://github.com/radify/karma-es6-shim-example).
 
