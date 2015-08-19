@@ -9,9 +9,9 @@
     "es6-shim",
     "shim"
   ],
-  "peerDependencies": {
-    "es5-shim": "~4.1.1",
-    "es6-shim": "~0.28.1"
+  "dependencies": {
+    "es5-shim": "~4.1.10",
+    "es6-shim": "~0.33.0"
   },
   "main": "lib/index.js",
   "scripts": {
