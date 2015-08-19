@@ -9,7 +9,7 @@
     "es6-shim",
     "shim"
   ],
-  "peerDependencies": {
+  "dependencies": {
     "es5-shim": "~4.1.10",
     "es6-shim": "~0.33.0"
   },
