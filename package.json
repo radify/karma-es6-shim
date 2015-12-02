@@ -10,8 +10,8 @@
     "shim"
   ],
   "dependencies": {
-    "es5-shim": "~4.1.10",
-    "es6-shim": "~0.33.0"
+    "es5-shim": "~4.3.1",
+    "es6-shim": "~0.33.13"
   },
   "main": "lib/index.js",
   "scripts": {
