@@ -30,5 +30,6 @@
   "bugs": {
     "url": "https://github.com/radify/karma-es6-shim/issues"
   },
-  "homepage": "https://github.com/radify/karma-es6-shim"
+  "homepage": "https://github.com/radify/karma-es6-shim",
+  "tag-version-prefix" : ""
 }
