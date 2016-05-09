@@ -1,6 +1,6 @@
 {
   "name": "karma-es6-shim",
-  "version": "0.2.3",
+  "version": "1.0.0",
   "description": "es6-shim adapter for Karma",
   "keywords": [
     "karma",
@@ -31,5 +31,5 @@
     "url": "https://github.com/radify/karma-es6-shim/issues"
   },
   "homepage": "https://github.com/radify/karma-es6-shim",
-  "tag-version-prefix" : ""
+  "tag-version-prefix": ""
 }
