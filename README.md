@@ -53,7 +53,7 @@ Example usage
 
 You will almost certainly need some kind of transpiler such as [Babel or 6to5](https://babeljs.io/).
 
-We have supplied an example repository at [https://github.com/radify/karma-es6-shim-example](github.com/radify/karma-es6-shim-example).
+We have supplied an example repository at [https://github.com/radify/karma-es6-shim-example](https://github.com/radify/karma-es6-shim-example).
 
 When to use this and when not to
 --------------------------------
